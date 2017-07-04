@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+    <style>
+        li {
+            list-style: none;
+            font-size: 2em
+        }
+        
+        a:hover {
+            background-color: lightyellow;
+        }
+    </style>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -38,12 +48,18 @@
 
             <h1>Laravel Introduction </h1>
             <div class="container">
-                <p>In this web page you will be introduced to :</p>
-                <ul>
-                    <li>Laravel </li>
-                    <li>How to setup laravel </li>
-                    <li>How to use laravel </li>
-                    <li>Start your first appliation using your knoldege of Laravel</li>
+                <h3> <span class="label label-info">In this web page you will be introduced to :</span></h3>
+
+                <ul class=" ">
+                    <li><a href="#"><span class="badge">1</span> Laravel frame work.</a></li>
+
+                    <li>
+                        <a href="#">
+                            <span class="badge">2 </span> Setup laravel in Windows
+                        </a>
+                    </li>
+                    <li><a href="#"><span class="badge">3</span>  Use laravel .</a> </li>
+                    <li><a href="#"><span class="badge">4 </span> Start your first appliation using your knoldege of Laravel.</a> </li>
 
                 </ul>
             </div>
