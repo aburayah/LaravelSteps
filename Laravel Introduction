@@ -28,13 +28,25 @@
 
                     </ul>
                     <div class="pull-right">
-                        <button class="btn btn-success navbar-btn">About me</button>
+                        <a href="aboutMe">
+                            <button class="btn btn-success navbar-btn">About me</button>
+                        </a>
+
                     </div>
                 </div>
             </nav>
 
             <h1>Laravel Introduction </h1>
+            <div class="container">
+                <p>In this web page you will be introduced to :</p>
+                <ul>
+                    <li>Laravel </li>
+                    <li>How to setup laravel </li>
+                    <li>How to use laravel </li>
+                    <li>Start your first appliation using your knoldege of Laravel</li>
 
+                </ul>
+            </div>
         </div>
     </div>
 
